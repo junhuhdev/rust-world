@@ -73,6 +73,17 @@ features = [
     "offline",
 ]
 
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "http_server"
+path = "src/main.rs"
+
+[features]
+flowy_test = []
+ignore_auth = []
+
 
 [dev-dependencies]
 parking_lot = "0.11"
