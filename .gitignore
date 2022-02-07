@@ -1,2 +1,12 @@
 /target
 .idea
+
+
+**/*.rs.bk
+.idea/
+**/temp/**
+package-lock.json
+yarn.lock
+node_modules
+
+rust-world.iml
